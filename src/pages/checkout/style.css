@@ -1,0 +1,88 @@
+.checkout {
+  align-items: center;
+  background-color: #ECEFF1;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.checkout__container {
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 4px;
+  color: #546E7A;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 5px;
+  justify-content: center;
+  padding: 50px 40px;
+}
+
+.checkout__message {
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.checkout__message--clientName {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.checkout__message--price {
+  font-size: 1.5rem;
+  color: #019CDF;
+}
+
+.checkout__image {
+  height: 100%;
+  width: 100%;
+  max-height: 130px;
+  max-width: 150px;
+}
+
+.checkout__button {
+  align-items: center;
+  background-color: #FF9800;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 210px;
+}
+
+@media only screen and (min-width: 320px) {
+  .checkout__container {
+    height: 100%;
+    width: 100%;
+  }
+  .checkout__image {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .checkout__container {
+    height: 480px;
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .checkout__container {
+    height: 500px;
+    width: 370px;
+  }
+  .checkout__image {
+    margin: 40px 0;
+  }
+}

@@ -1,0 +1,117 @@
+.product {
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+  width: 100%;
+  max-height: 35rem;
+  max-width: 17rem;
+  padding: 0.75rem;
+}
+
+.product:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
+  border: 1px solid #ECEFF1;
+  scale: 1.05;
+}
+ 
+.product__image {
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 220px;
+}
+
+.product:hover .product__info {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: -10px;
+  margin-bottom: 10px;
+}
+
+.product__name {
+  color: #7e9098;
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.product__priceFull {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #546e7a;
+}
+
+.product__price--installments {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #acbbc2;
+}
+
+.product__price--payOnce {
+  display: block;
+}
+
+.product__quantity{
+  display: none;
+}
+
+.product:hover .product__quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.product__quantity__button {
+  align-items: center;
+  background-color: #cfd8dc;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.product__quantity__button img {
+  height: 100%;
+  width: 100%;
+}
+
+.product__quantity--input {
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  height: 40px;
+  text-align: center;
+  width: 125px;
+}
+
+.product__quantity__button--addCart {
+  display: none;
+}
+
+.product:hover .product__quantity__button--addCart {
+  cursor: pointer;
+  align-items: center;
+  background-color: #019CDF;
+  border: none;
+  border-radius: 8px;
+  color: #FFF;
+  display: inline-block;
+  font-weight: bold;
+  height: 40px;
+  justify-content: center;
+  margin: 20px auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 230px;
+}
+
+.product:hover .product__quantity__button--addCart:active {
+  background-color: #0077a3;
+}
