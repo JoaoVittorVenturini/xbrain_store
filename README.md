@@ -1,21 +1,18 @@
 # Teste para vaga Front-End
 
-## Regras
+## Dificuldades
 
-* Deve-se utilizar obrigatóriamente os seguintes recursos: [material-ui](https://material-ui.com/), [reactjs](https://reactjs.org/), [redux](https://redux.js.org/), [redux-form](https://redux-form.com) e [react-router](https://github.com/ReactTraining/react-router), além destes, é permitido utilizar qualquer outra biblioteca.
+* esse foi o primeiro projeto que eu criei, e tinha conhecimento apenas de html e css.
 
-* Implementar as telas responsivas.
+* tive mais dificuldade na parte do **redux-form** principalmente.
 
-* Inserir validações no formulário.
-
-* Personalize se necessário qualquer componente para se adequar ao design.
+* outra dificuldade foi com o tempo. creio que sejam coisas básicas, porém para quem nunca tinha visto nada sobre as linguagens, acaba sendo um desafio e tanto.
 
 ---
-
-## Descrição
-
-Construa as páginas de **Produto** e **Finalização de Compra** com base nos arquivos disponíveis na pasta **design**.
-
-O usuário irá preencher a quantidade do(s) produto(s) desejado(s), inserir os dados no formulário e finalizar a venda. Na página de **finalização de compra** exibir o nome do cliente e o valor total da compra, e no botão **iniciar nova compra** redirecionar para a tela de produtos.
-
-> *Não é necessário implementar nenhum código back-end, as informações ficarão todas armazenadas no browser.*
+## ...
+*  uma das coisas que mais gostei foi o **desafio** em si, pois fez eu exigir mais de mim mesmo para fazer o trabalho.  Para conseguir pelo menos uma entrega mínima.
+* gostaria de uma oportunidade para entrar no mercado de trabalho, e conseguir construir uma carreira.
+---
+## Contato
+- <a href="https://www.linkedin.com/in/joao-vittor-venturini/">Linkedin</a>
+- <a href="https://wa.me/qr/BZ7R5JQXWHH2J1 ">WhatssApp (43) 99815-4076</a>
